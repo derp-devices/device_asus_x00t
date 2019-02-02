@@ -282,3 +282,8 @@ WIFI_HIDL_FEATURE_DUAL_INTERFACE := true
 
 # inherit from the proprietary version
 -include vendor/asus/X00T/BoardConfigVendor.mk
+
+#HALS
+TARGET_QCOM_DISPLAY_VARIANT := caf-sdm660
+TARGET_QCOM_MEDIA_VARIANT := caf-sdm660
+TARGET_QCOM_AUDIO_VARIANT := caf-sdm660
